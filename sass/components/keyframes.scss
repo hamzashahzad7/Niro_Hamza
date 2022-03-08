@@ -1,0 +1,72 @@
+@keyframes animation {
+    0% {
+        left: 0%;
+    }
+    50% {
+        left: 40%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+// this is the keyrames for animation in section media 
+@keyframes head {
+    0% {
+        letter-spacing: 0.9rem;
+    }
+    50% {
+        letter-spacing: 0rem;
+    }
+    100% {
+        letter-spacing: 0.9rem;
+    }
+}
+
+@keyframes brands {
+    0% {
+        letter-spacing: 0.3rem;
+    }
+    50% {
+        letter-spacing: 0rem;
+    }
+    100% {
+        letter-spacing: 0.3rem;
+    }
+}
+
+@keyframes brand {
+    0% {
+        letter-spacing: 0.02rem;
+    }
+    50% {
+        letter-spacing: 0rem;
+    }
+    100% {
+        letter-spacing: 0.02rem;
+    }
+}
+
+@keyframes freelance {
+    0% {
+        color: white;
+    }
+    10% {
+        color: rgb(238, 255, 0);
+    }
+    20% {
+        color: orangered;
+    }
+    50% {
+        color: rgb(0, 17, 255);
+    }
+    60% {
+        color: skyblue;
+    }
+    80% {
+        color: rgb(189, 114, 179);
+    }
+    100% {
+        color: white;
+    }
+}

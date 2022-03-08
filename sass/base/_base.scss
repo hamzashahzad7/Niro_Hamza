@@ -1,0 +1,24 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Twinkle Star', cursive;
+}
+
+html {
+    font-size: 62.5%;
+    @include respond (phone) {
+        font-size: 50%;
+    }
+    @include respond (tablet-port) {
+        font-size: 50%;
+    }
+    @include respond (tablet-landscape) {
+        font-size: 56.25%;
+    }
+    @include respond (big-desktop) {
+        font-size: 75%;
+    }
+}

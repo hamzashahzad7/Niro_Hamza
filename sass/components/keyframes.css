@@ -1,0 +1,23 @@
+@-webkit-keyframes animation {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: 40%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+@keyframes animation {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: 40%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+/*# sourceMappingURL=keyframes.css.map */
